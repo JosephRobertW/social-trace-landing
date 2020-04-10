@@ -5,7 +5,11 @@
  */
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  background-color: #0A747F;
 }
 
 h1,
@@ -14,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
@@ -37,8 +41,18 @@ header.masthead .overlay {
   opacity: 0.3;
 }
 
+header.masthead h2 {
+  font-weight: 400;
+}
+
+header.masthead h2.coming {
+  font-weight: 700;
+}
+
 header.masthead h1 {
-  font-size: 2rem;
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 1rem !important;
 }
 
 @media (min-width: 768px) {
@@ -46,8 +60,16 @@ header.masthead h1 {
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
+  header.masthead h2 {
+    font-weight: 400;
+  }
+  header.masthead h2.coming {
+    font-weight: 700;
+  }
   header.masthead h1 {
-    font-size: 3rem;
+    font-weight: 800;
+    font-size: 5rem;
+    margin-bottom: 1rem !important;
   }
 }
 
